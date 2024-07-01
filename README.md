@@ -5,7 +5,7 @@ DIGITAL CLOCK ON BASYS3
 
 This report details the design and implementation of a digital clock using Verilog hardware description language (HDL). The primary objective of this project is to create a functional digital clock capable of displaying hours and minutes on a seven-segment display. The clock includes features such as timekeeping, time setting, and a user-friendly interface for editing the time.
 
-1. **Working Principle**
+2. **Working Principle**
 
 The digital clock designed in this project operates based on several key principles and functionalities:
 
@@ -14,7 +14,7 @@ The digital clock designed in this project operates based on several key princip
 1. **Time Counting**: The clock maintains registers for seconds, minutes, and hours, which are updated based on the slower clock signal.
 1. **User Interface**: Control inputs allow the user to interact with the clock, including resetting the time, entering editing mode, shifting the focus between hours and minutes, and incrementing or decrementing the time.
 1. **Display**: The current time is displayed on a seven-segment display, which converts the binary time values into a human-readable format.
-1. **States of operation**
+3. **States of operation**
 
 The FSM manages the digital clock through the following states:
 
@@ -69,11 +69,11 @@ Operations:
 
 Outputs: The current time is displayed on the seven-segment display.
 
-1. **Summary**
+4. **Summary**
 
 The digital clock operates through a well-defined FSM with two primary states: normal operation and editing mode. Each state has specific input triggers and operations, ensuring smooth transitions and accurate timekeeping. The integration of a clock divider and user interface controls allows for a functional and user-friendly digital clock design. The seven-segment display provides a clear and readable output of the current time, making the digital clock easy to use and understand.
 
-1. **Output**
+5. **Output**
 
 <https://drive.google.com/file/d/1h6-hPhocXWuX8lR8reOwbr9lDnSvyogZ/view?usp=sharing>
 
