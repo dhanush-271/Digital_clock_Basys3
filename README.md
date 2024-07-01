@@ -1,8 +1,5 @@
 ﻿
 DIGITAL CLOCK ON BASYS3
-![](Aspose.Words.7373edc8-2c5e-4807-9a8f-a35bd4e3fb01.001.png)Github: <https://github.com/dhanush-271/Digital_clock_Basys3>
-
-**KOTHAPALLI DHANUSH**
 
 1. **Introduction**
 
