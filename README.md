@@ -9,11 +9,11 @@ This report details the design and implementation of a digital clock using Veril
 
 The digital clock designed in this project operates based on several key principles and functionalities:
 
-**Clock Division**: The primary clock signal is divided to create a slower clock signal (sclk), ensuring the timer increments at a human-readable rate (one second).
-**Finite State Machine (FSM)**: The digital clock uses an FSM to manage its different operational modes, including normal operation and editing mode.
-**Time Counting**: The clock maintains registers for seconds, minutes, and hours, which are updated based on the slower clock signal.
-**User Interface**: Control inputs allow the user to interact with the clock, including resetting the time, entering editing mode, shifting the focus between hours and minutes, and incrementing or decrementing the time.
-**Display**: The current time is displayed on a seven-segment display, which converts the binary time values into a human-readable format.
+- **Clock Division**: The primary clock signal is divided to create a slower clock signal (sclk), ensuring the timer increments at a human-readable rate (one second).
+- **Finite State Machine (FSM)**: The digital clock uses an FSM to manage its different operational modes, including normal operation and editing mode.
+- **Time Counting**: The clock maintains registers for seconds, minutes, and hours, which are updated based on the slower clock signal.
+- **User Interface**: Control inputs allow the user to interact with the clock, including resetting the time, entering editing mode, shifting the focus between hours and minutes, and incrementing or decrementing the time.
+- **Display**: The current time is displayed on a seven-segment display, which converts the binary time values into a human-readable format.
 
 3. **States of operation**
 
