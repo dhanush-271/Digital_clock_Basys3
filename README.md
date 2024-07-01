@@ -14,6 +14,7 @@ The digital clock designed in this project operates based on several key princip
 1. **Time Counting**: The clock maintains registers for seconds, minutes, and hours, which are updated based on the slower clock signal.
 1. **User Interface**: Control inputs allow the user to interact with the clock, including resetting the time, entering editing mode, shifting the focus between hours and minutes, and incrementing or decrementing the time.
 1. **Display**: The current time is displayed on a seven-segment display, which converts the binary time values into a human-readable format.
+
 3. **States of operation**
 
 The FSM manages the digital clock through the following states:
